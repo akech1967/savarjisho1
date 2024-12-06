@@ -1,90 +1,100 @@
 body {
-    padding-left: 40px;
-  }
-  
-  .ford_image {
-    width: 130px;
-    height: 64px;
-    border: 1px solid #4ca9e3;
-    margin-top: 32px;
-  }
-  .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .ul {
-    display: flex;
-  }
-  .text1 {
-    font-weight: 400;
-    color: #f50808;
-    font-size: 20px;
-    line-height: 29px;
-    margin-right: 50px;
-    text-decoration: none;
-  }
-  .text2 {
-    font-weight: 400;
-    color: #128410;
-    font-size: 20px;
-    line-height: 29px;
-    margin-right: 50px;
-    text-decoration: none;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  .container_box{
-    
-    display: flex;
-    justify-content: space-between;
-    background-color: pink;
-  }
-  
-  .box{
-    width: 150px;
-    height: 180px;
-    background-color: purple;
-    border: 2px solid black;
-  }
-  
-  .section2 {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  .section3 {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  
-  .text_footer {
-    text-align: center;
-    font-weight: 600;
-  }
-  
-  .contact_form {
-    margin: 10px;
-  }
-  
-  .avesome {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .fa-brands {
-    font-size: 60px;
-    color: blue;
-    margin-left: 50px;
-  }
-  .ul_footer {
-    display: flex;
-  }
-  
+  padding-left: 40px;
+}
+
+.ford_image {
+  width: 130px;
+  height: 64px;
+  border: 1px solid #4ca9e3;
+  margin-top: 32px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ul {
+  display: flex;
+}
+
+.burger {
+  width: 50px;
+  height: 40px;
+  display: none;
+}
+
+.fa-solid {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.text1 {
+  font-weight: 400;
+  color: #f50808;
+  font-size: 20px;
+  line-height: 29px;
+  margin-right: 50px;
+  text-decoration: none;
+}
+.text2 {
+  font-weight: 400;
+  color: #128410;
+  font-size: 20px;
+  line-height: 29px;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.container_box {
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+}
+
+.box {
+  width: 150px;
+  height: 180px;
+  background-color: purple;
+  border: 2px solid black;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.text_footer {
+  text-align: center;
+  font-weight: 600;
+}
+
+.contact_form {
+  margin: 10px;
+}
+
+.avesome {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.fa-brands {
+  font-size: 60px;
+  color: blue;
+  margin-left: 50px;
+}
+.ul_footer {
+  display: flex;
+}
