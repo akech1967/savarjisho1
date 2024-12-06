@@ -24,10 +24,11 @@ body {
   display: none;
 }
 
-.fa-solid {
+/* .fa-solid {
   font-size: 40px;
   font-weight: bold;
-}
+  display: none;
+} */
 
 .text1 {
   font-weight: 400;
