@@ -24,6 +24,11 @@
     .ul{
       display: none;
     }
+    .fa-brands {
+      font-size: 45px;
+      color: blue;
+      margin-left: 40px;
+    }
   }
   
   @media (max-width: 400px) {
@@ -40,5 +45,15 @@
     .ul{
       display: none;
     }
+   .section2{
+    display: flex;
+   flex-direction: column;
+  
+   }
+   .fa-brands {
+    font-size: 30px;
+    color: blue;
+    margin-left: 20px;
+  }
   }
   
