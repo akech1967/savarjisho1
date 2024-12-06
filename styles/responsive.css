@@ -1,0 +1,30 @@
+@media (max-width: 600px) {
+    .container_box {
+      flex-wrap: wrap;
+      background-color: blue;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    .box {
+      width: 30%;
+    }
+    .box:nth-child(1) {
+      width: 75%;
+    }
+  
+    .box:nth-child(4) {
+      width: 75%;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .container_box {
+      justify-content: center;
+      background-color: green;
+    }
+    .box {
+      width: 75%;
+    }
+  }
+  
