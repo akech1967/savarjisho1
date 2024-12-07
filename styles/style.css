@@ -58,10 +58,35 @@ main {
 }
 
 .box {
-  width: 150px;
-  height: 180px;
-  background-color: purple;
+  width: 250px;
+  background-color: rgb(235, 221, 235);
   border: 2px solid black;
+  padding: 10px;
+}
+.text_pseudo{
+  text-align: justify;
+}
+
+.text_pseudo::first-line{
+  color:#f50808;
+  font-weight: 600;
+}
+
+.text_pseudo::first-letter{
+ color: blue;
+ font-weight: bolder;
+ font-size: 30px;
+}
+::selection{
+  color: #0fe60f;
+  background-color: #eff6fa;
+  
+}
+
+.image_fit{
+  width: 220px;
+  height: 200px;
+  object-fit: contain;
 }
 
 .section2 {
