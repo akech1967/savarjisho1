@@ -29,6 +29,11 @@
       color: blue;
       margin-left: 40px;
     }
+    .image_fit{
+      width: 150px;
+      height: 140px;
+      object-fit: contain;
+    }
   }
   
   @media (max-width: 400px) {
@@ -54,6 +59,11 @@
     font-size: 30px;
     color: blue;
     margin-left: 20px;
+  }
+  .image_fit{
+    width: 120px;
+    height: 100px;
+    object-fit: contain;
   }
   }
   
