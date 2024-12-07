@@ -85,7 +85,6 @@ main {
 
 .image_fit{
   max-width: 100%;        
-  max-height: 90%;
   object-fit: contain;
 }
 
