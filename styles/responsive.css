@@ -29,8 +29,13 @@
       color: blue;
       margin-left: 40px;
     }
+    .box:nth-child(2){
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
     .image_fit{
-      width: 150px;
+      width: 120px;
       height: 140px;
       object-fit: contain;
     }
@@ -64,6 +69,11 @@
     width: 120px;
     height: 100px;
     object-fit: contain;
+  }
+  .box:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
   }
   
