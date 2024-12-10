@@ -38,7 +38,7 @@ a:hover::after{
 }
 
 a:hover {
-  background-color: yellow;
+  /* background-color: yellow; */
   font-size: 30px;
   font-weight: 900;
   color: blue;
