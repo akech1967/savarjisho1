@@ -36,7 +36,7 @@ body {
   font-size: 20px;
   line-height: 29px;
   margin-right: 50px;
-  text-decoration: none;
+  
 }
 .text2 {
   font-weight: 400;
@@ -55,6 +55,7 @@ main {
   display: flex;
   justify-content: space-between;
   background-color: pink;
+  margin-bottom: 40px;
 }
 
 .box {
@@ -93,6 +94,13 @@ main {
   display: flex;
   justify-content: center;
   align-content: center;
+}
+.bg_image{
+  background-image: url(https://www.w3schools.com/w3images/photographer.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .section2 {
   display: flex;
