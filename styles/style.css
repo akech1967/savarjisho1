@@ -138,6 +138,18 @@ main {
   display: block;
   opacity: 50%;
 }
+.geo-rel{
+  text-align: justify;
+  font-family: "BPG Mikheil Stefane", sans-serif;
+}
+
+h2{
+
+  font-weight: bold;
+  font-family: "BPG Mikheil Stefane", sans-serif;
+  color: #010f18;
+  text-align: center;
+}
 .section2 {
   display: flex;
   justify-content: space-evenly;
