@@ -138,7 +138,7 @@ main {
   display: block;
   opacity: 50%;
 }
-.geo-rel{
+.geo-abs{
   text-align: justify;
   font-family: "BPG Mikheil Stefane", sans-serif;
 }
@@ -149,6 +149,11 @@ h2{
   font-family: "BPG Mikheil Stefane", sans-serif;
   color: #010f18;
   text-align: center;
+}
+
+.geo-rel{
+  text-align: justify;
+  font-family: 'ALK Life';
 }
 .section2 {
   display: flex;
