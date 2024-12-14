@@ -158,6 +158,11 @@ h2{
   font-family: 'ALK Life';
   font-size: 14px;
 }
+
+.geo-rel__symbol{
+  font-size: 40px;
+  color: #f50808;
+}
 .section2 {
   display: flex;
   justify-content: space-evenly;
