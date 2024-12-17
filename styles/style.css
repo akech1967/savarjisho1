@@ -18,12 +18,12 @@ body {
   display: flex;
 }
 
-a{
+a {
   position: relative;
 }
 
-a::after{
-  content: ' ';
+a::after {
+  content: " ";
   height: 2px;
   width: 0%;
   position: absolute;
@@ -31,10 +31,10 @@ a::after{
   left: 0;
   background-color: #f50808;
   display: block;
-  transition: width 0.2s linear 0.5s ;                     
+  transition: width 0.2s linear 0.5s;
 }
 
-a:hover::after{
+a:hover::after {
   width: 100%;
 }
 
@@ -63,7 +63,6 @@ a:hover {
   font-size: 20px;
   line-height: 29px;
   margin-right: 50px;
-  
 }
 .text2 {
   font-weight: 400;
@@ -91,61 +90,58 @@ main {
   border: 2px solid black;
   padding: 10px;
 }
-.school-container__text{
+.school-container__text {
   text-align: justify;
 }
 
-.school-container__text::first-line{
-  color:#f50808;
+.school-container__text::first-line {
+  color: #f50808;
   font-weight: 600;
 }
 
-.school-container__text::first-letter{
- color: blue;
- font-weight: bolder;
- font-size: 30px;
+.school-container__text::first-letter {
+  color: blue;
+  font-weight: bolder;
+  font-size: 30px;
 }
-::selection{
+::selection {
   color: #0fe60f;
   background-color: #eff6fa;
-  
 }
 
-.school-container__image{
-  max-width: 100%;  
-        
+.school-container__image {
+  max-width: 100%;
+
   object-fit: contain;
 }
 
-.box:nth-child(2){
+.box:nth-child(2) {
   display: flex;
   justify-content: center;
   align-content: center;
 }
-.bg_image{
+.bg_image {
   background-image: url(https://www.w3schools.com/w3images/photographer.jpg);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
-.bg_image::before{
-  content: '';
+.bg_image::before {
+  content: "";
   width: 100%;
   height: 100%;
   background-color: black;
   display: block;
   opacity: 50%;
 }
-.school-container__geo-abs{
+.school-container__geo-abs {
   text-align: justify;
   font-family: "BPG Mikheil Stefane", sans-serif;
 }
 
-h2{
-
+h2 {
   font-weight: bold;
   font-family: "BPG Mikheil Stefane", sans-serif;
   color: #010f18;
@@ -153,15 +149,45 @@ h2{
   margin-bottom: 10px;
 }
 
-.school-container__geo-rel{
+.school-container__geo-rel {
   text-align: justify;
-  font-family: 'ALK Life';
+  font-family: "ALK Life";
   font-size: 14px;
 }
 
-.geo-rel__symbol{
+.geo-rel__symbol {
   font-size: 40px;
   color: #f50808;
+}
+
+.latin-box {
+  display: flex;
+  padding: 10px;
+  background-color: bisque;
+  margin-bottom: 20px;
+  justify-content: space-around;
+}
+.latin-box__latin-font {
+  width: 500px;
+  margin: 10px;
+}
+
+latin-font__title-abs{
+  font-family: "Montserrat", sans-serif;
+}
+
+.latin-font__latin-abs {
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+.latin-font__latin-rel {
+  font-family: 'Montserrat';
+  
+}
+
+.latin-font__title-rel{
+  font-family: 'Roboto';
 }
 .section2 {
   display: flex;
