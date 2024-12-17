@@ -1,78 +1,81 @@
 @media (max-width: 650px) {
-    .container_box {
-      flex-wrap: wrap;
-      background-color: blue;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-    }
-    .box {
-      width: 30%;
-    }
-    .box:nth-child(1) {
-      width: 75%;
-    }
-  
-    .box:nth-child(4) {
-      width: 75%;
-    }
-
-    .burger{
-      display: block;
-    }
-
-    .ul{
-      display: none;
-    }
-    .fa-brands {
-      font-size: 45px;
-      color: blue;
-      margin-left: 40px;
-    }
-    .box:nth-child(2){
-      display: flex;
-      justify-content: center;
-      align-content: center;
-    }
-    .image_fit{
-      max-width: 100%;        
-      
-      object-fit: contain;
-    }
-  }
-  
-  @media (max-width: 400px) {
-    .container_box {
-      justify-content: center;
-      background-color: green;
-    }
-    .box {
-      width: 75%;
-    }
-    .burger{
-      display: block;
-    }
-    .ul{
-      display: none;
-    }
-   .section2{
+  .school-container {
+    flex-wrap: wrap;
+    background-color: blue;
     display: flex;
-   flex-direction: column;
-  
-   }
-   .fa-brands {
-    font-size: 30px;
+    justify-content: center;
+    gap: 20px;
+  }
+  .school-container__box {
+    width: 30%;
+  }
+  .school-container__box:nth-child(1) {
+    width: 75%;
+  }
+
+  .school-container__box:nth-child(4) {
+    width: 75%;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .ul {
+    display: none;
+  }
+  .fa-brands {
+    font-size: 45px;
     color: blue;
-    margin-left: 20px;
+    margin-left: 40px;
   }
-  .image_fit{
-    max-width: 100%;        
-    object-fit: contain;
-  }
-  .box:nth-child(2){
+  .school-container__box:nth-child(2) {
     display: flex;
     justify-content: center;
     align-content: center;
   }
+  .image_fit {
+    max-width: 100%;
+
+    object-fit: contain;
   }
-  
+  .latin-box {
+    background-color: aqua;
+    flex-wrap: wrap;
+    display: flex;
+  }
+}
+
+@media (max-width: 400px) {
+  .school-container__box {
+    justify-content: center;
+    background-color: green;
+  }
+  .school-container__box {
+    width: 75%;
+  }
+  .burger {
+    display: block;
+  }
+  .ul {
+    display: none;
+  }
+  .section2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .fa-brands {
+    font-size: 30px;
+    color: blue;
+    margin-left: 20px;
+  }
+  .image_fit {
+    max-width: 100%;
+    object-fit: contain;
+  }
+  .school-container__box:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
