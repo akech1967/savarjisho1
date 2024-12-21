@@ -190,6 +190,13 @@ latin-font__title-abs{
 .latin-font__title-rel{
   font-family: 'Roboto';
 }
+
+.html-forms{
+  background-color: #4ca9e3;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .section2 {
   display: flex;
   justify-content: space-evenly;
