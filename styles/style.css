@@ -172,29 +172,34 @@ h2 {
   margin: 10px;
 }
 
-latin-font__title-abs{
+latin-font__title-abs {
   font-family: "Montserrat", sans-serif;
 }
 
 .latin-font__latin-abs {
   font-family: "Montserrat", sans-serif;
-  
 }
 
 .latin-font__latin-rel {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 18px;
-  
 }
 
-.latin-font__title-rel{
-  font-family: 'Roboto';
+.latin-font__title-rel {
+  font-family: "Roboto";
 }
 
-.html-forms{
-  background-color: #4ca9e3;
+.html-forms {
+  background-color: #d4e9f5;
   margin-top: 20px;
   margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-evenly ;
+}
+.html-forms__registration {
+  margin: 20px;
 }
 
 .section2 {

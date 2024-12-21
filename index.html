@@ -132,16 +132,75 @@
       </section>
       <section>
         <div class="html-forms">
-          <div>
+          <div class="html-forms__registration">
             <form action="#">
-              <label for="fname">First name:</label><br />
+              <label for="fname">First name:</label>
               <input type="text" id="fname" name="fname" /><br />
-              <label for="lname">Last name:</label><br />
+              <label for="lname">Last name:</label>
               <input type="text" id="lname" name="lname" /><br /><br />
               <input type="submit" value="Submit" />
             </form>
-            
           </div>
+          <div class="html-forms__registration">
+            <form action="#">
+              <input
+                type="checkbox"
+                id="vehicle1"
+                name="vehicle1"
+                value="Bike"
+              />
+              <label for="vehicle1"> მყავს მერსედესი</label><br />
+              <input
+                type="checkbox"
+                id="vehicle2"
+                name="vehicle2"
+                value="Car"
+              />
+              <label for="vehicle2"> მყავს ვოლვო</label><br />
+              <input
+                type="checkbox"
+                id="vehicle3"
+                name="vehicle3"
+                value="Boat"
+              />
+              <label for="vehicle3"> მყავს ნივა</label><br /><br />
+              <input type="submit" value="დააკლიკე აქ" />
+            </form>
+          </div>
+          <div class="html-forms__registration">
+            <form action="#">
+              <label for="cars">მონიშნე კუთხე:</label>
+              <select id="cars" name="cars">
+                <option value="Guria">გურია</option>
+                <option value="Adjara">აჭარა</option>
+                <option value="Svaneti">სვანეთი</option>
+                <option value="kakheti">კახეთი</option>
+                <option value="kartli">ქართლი</option>
+                <option value="meskheti">მესხეთი</option>
+              </select>
+              <input type="submit" />
+            </form>
+          </div>
+          <div class="html-forms__registration">
+            <form action="#">
+              <label for="cars">მონიშნე მანქანა:</label>
+              <select id="cars" name="cars" size="5" multiple>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="fiat">Bugatti</option>
+                <option value="audi">Audi</option></select
+              ><br /><br />
+              <input type="submit" />
+            </form>
+          </div>
+        </div>
+        <div class="text-area">
+          <form action="#">
+            <textarea name="message" rows="10" cols="50">გაგვიზიართ თქვენი შენიშვნები.</textarea>
+            <br><br>
+            <input type="submit">
+          </form>
         </div>
       </section>
     </main>
