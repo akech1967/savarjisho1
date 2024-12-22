@@ -214,6 +214,11 @@ input:focus {
   color: #f50808;
   
 }
+
+.fa:hover{
+  color: #4ca9e3;
+  font-size: 20px;
+}
 .section2 {
   display: flex;
   justify-content: space-evenly;
