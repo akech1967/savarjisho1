@@ -201,8 +201,10 @@ latin-font__title-abs {
 .html-forms__registration {
   margin: 20px;
 }
-
-
+  /* input-ის ამ სტილს თუ რესეტ.ცსს-ში წავიღებთ, საიტზე ყველგან წაიშლება დაფოკუსებისას ფანჯრის ცარჩოს გამუქება */
+input:focus{         
+outline: none;
+}
 .section2 {
   display: flex;
   justify-content: space-evenly;
