@@ -196,14 +196,23 @@ latin-font__title-abs {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
-  justify-content: space-evenly ;
+  justify-content: space-evenly;
 }
 .html-forms__registration {
   margin: 20px;
 }
-  /* input-ის ამ სტილს თუ რესეტ.ცსს-ში წავიღებთ, საიტზე ყველგან წაიშლება დაფოკუსებისას ფანჯრის ცარჩოს გამუქება */
-input:focus{         
-outline: none;
+/* input-ის ამ სტილს თუ რესეტ.ცსს-ში წავიღებთ, საიტზე ყველგან წაიშლება დაფოკუსებისას ფანჯრის ცარჩოს გამუქება */
+input:focus {
+  outline: none;
+}
+
+.text-box {
+  margin-bottom: 20px;
+}
+
+.fa{
+  color: #f50808;
+  
 }
 .section2 {
   display: flex;
