@@ -194,7 +194,7 @@ latin-font__title-abs {
   margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   padding: 10px;
   justify-content: space-evenly;
 }
