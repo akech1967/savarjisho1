@@ -44,6 +44,9 @@
     flex-wrap: wrap;
     display: flex;
   }
+  .html-forms__registration{
+    width: 40%;
+  }
 }
 
 @media (max-width: 400px) {
@@ -52,6 +55,9 @@
     background-color: green;
   }
   .school-container__box {
+    width: 75%;
+  }
+  .html-forms__registration{
     width: 75%;
   }
   .burger {
