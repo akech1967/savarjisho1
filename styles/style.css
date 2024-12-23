@@ -210,6 +210,12 @@ input:focus {
   margin-bottom: 20px;
 }
 
+input[type="text"]{
+  color:red;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 .fa{
   color: #f50808;
   
